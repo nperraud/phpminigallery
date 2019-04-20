@@ -26,10 +26,10 @@
 <html>
 <head>
   <pmg:if page="index">
-    <title>A gallery of <pmg:count/> pictures</title>
+    <title>Photomathon mariage Emeline et Cyril<pmg:count/> pictures</title>
   </pmg:if>
   <pmg:if page="picture">
-    <title>Picture <pmg:current/>/<pmg:count/></title>
+    <title>Photo <pmg:current/>/<pmg:count/></title>
   </pmg:if>
   <style type="text/css"><!--
     body {
@@ -69,9 +69,13 @@
       background-color: #C0C0C0;
       text-align: center;
       padding: 5px;
+      width: 100%;
+      height: auto;
     }
 
     .picimg {
+      width: 100%;
+      height: auto;      
       background-color: #000000;
       padding: 5px;
       margin-bottom: 3px;
@@ -80,6 +84,9 @@
 </head>
 <body>
   <pmg:if page="index">
+    <div align="left">
+     <a href="emeline-et-cyril.perraudin.info/photomathon-mariage-emeline-cyril.zip">Télécharger toutes les photos</a>
+    </div>
     <div align="right">
       <pmg:first>[ Start... ]</pmg:first>
     </div>
@@ -89,10 +96,10 @@
   <pmg:if page="picture">
     <div align="right">
       <pmg:toc>[ Index ]&nbsp;</pmg:toc>
-      <pmg:first>[ First ]&nbsp;</pmg:first>
-      <pmg:prev>[ Previous ]&nbsp;</pmg:prev>
-      <pmg:next>[ Next ]&nbsp;</pmg:next>
-      <pmg:last>[ Last ]</pmg:last>
+      <pmg:first>[ Première ]&nbsp;</pmg:first>
+      <pmg:prev>[ Retour ]&nbsp;</pmg:prev>
+      <pmg:next>[ Suivante ]&nbsp;</pmg:next>
+      <pmg:last>[ Dernière ]</pmg:last>
     </div>
     <div class="picture">
       <pmg:image/><br />

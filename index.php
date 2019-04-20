@@ -25,11 +25,11 @@
    
   /*=== CONFIGURATION ===*/
   $CONFIG = array();
-  $CONFIG['thumb.width']    = 100;      // Thumbnail width (pixels)
-  $CONFIG['thumb.height']   = 100;      // Thumbnail height (pixels)
+  $CONFIG['thumb.width']    = 200;      // Thumbnail width (pixels)
+  $CONFIG['thumb.height']   = 200;      // Thumbnail height (pixels)
   $CONFIG['thumb.scale']    = 'gd2';    // Set to 'gd2', 'im' or 'gd'
   $CONFIG['tool.imagick']   = '/usr/bin/convert';   // Path to convert
-  $CONFIG['index.cols']     = 6;        // Colums per row on index print
+  $CONFIG['index.cols']     = 5;        // Colums per row on index print
   $CONFIG['template']       = 'template.php';       // Template file
   
   
